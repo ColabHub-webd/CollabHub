@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at 50% 15%, #263b4c 60%, #131428 100%);
+  font-family: 'Inter', sans-serif;
+  color: #ecf8fa;
+}
+
+.navbar {
+  background: #182032;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2.3rem;
+  border-bottom: 1px solid #22324c;
+}
+.logo {
+  font-weight: 900;
+  color: #19cdf0;
+  font-size: 1.6rem;
+}
+.subtitle {
+  color: #97b8d9;
+  margin-left: 1em;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.nav-menu a {
+  color: #bedaef;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.nav-menu a:hover {
+  color: #1bd2eb;
+}
+.create-btn {
+  background: #23daf1;
+  color: #0d274e;
+  border: none;
+  border-radius: 18px;
+  padding: 0.8em 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 1em;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  color: #e9fcff;
+  font-weight: 600;
+}
+.avatar {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background: #27e3ae;
+  margin-right: 7px;
+}
+
+main {
+  display: flex;
+  gap: 3rem;
+  padding: 3rem 2rem;
+  align-items: flex-start;
+}
+.hero {
+  max-width: 650px;
+}
+.pill {
+  display: inline-block;
+  background: #1b3549;
+  color: #6beeff;
+  padding: 7px 18px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  margin-bottom: 1.3em;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #f0feff;
+  margin: 0 0 0.7em 0;
+  line-height: 1.12;
+}
+.hero p {
+  font-size: 1.15rem;
+  color: #bdf0fc;
+  margin-bottom: 2em;
+}
+.hero-actions {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1.8em;
+}
+.main-btn {
+  background: #1bcacf;
+  border: none;
+  border-radius: 22px;
+  color: #13242c;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.8em 2.1em;
+  cursor: pointer;
+}
+.secondary-btn {
+  background: #223e58;
+  color: #bdf6fd;
+  border: none;
+  border-radius: 22px;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.8em 2.1em;
+  cursor: pointer;
+}
+.stats {
+  display: flex;
+  gap: 1.6em;
+}
+.stats > div {
+  background: #202e48;
+  border-radius: 10px;
+  padding: 1em 1.2em;
+  min-width: 110px;
+  text-align: center;
+  color: #cdf8fb;
+}
+.stats-main {
+  font-weight: 900;
+  font-size: 1.2em;
+  color
+    : #e0feff; 
+}
