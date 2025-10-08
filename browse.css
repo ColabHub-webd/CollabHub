@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  background: #0c1019;
+  font-family: 'Inter', sans-serif;
+  color: #e3f7ff;
+}
+
+.navbar {
+  background: #182032;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2.3rem;
+  border-bottom: 1px solid #22324c;
+}
+.logo {
+  font-weight: 900;
+  color: #19cdf0;
+  font-size: 1.6rem;
+}
+.nav-sub {
+  color: #90b3ce;
+  margin-left: 1em;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.nav-links a {
+  color: #bedaef;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 9px;
+}
+.nav-links a.active,
+.nav-links a:hover {
+  color: #1bd2eb;
+  background: #22334c;
+}
+.create-btn {
+  background: #23daf1;
+  color: #0d274e;
+  border: none;
+  border-radius: 18px;
+  padding: 0.7em 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 1em;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  color: #e0f2ff;
+  font-weight: 600;
+}
+.avatar {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: #24d6ae;
+  margin-right: 7px;
+}
+
+.main-content {
+  display: flex;
+  gap: 2.2rem;
+  padding: 2rem;
+}
+.filters {
+  background: #161a22;
+  border-radius: 16px;
+  padding: 2rem 1.3rem 1.5rem 1.3rem;
+  min-width: 260px;
+  max-width: 285px;
+  box-shadow: 0 4px 24px rgba(18,31,63,0.14);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.filters h2 {
+  font-size: 1.18rem;
+  color: #6beeff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  color: #c5eefb;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+.filters select {
+  background: #192541;
+  color: #a7ebf6;
+  border: none;
+  border-radius: 9px;
+  padding: 0.6em 1em;
+  font-size: 1em;
+  margin-top: 5px;
+}
+.apply-btn {
+  background: #26d3e8;
+  color: #16243d;
+  border: none;
+  border-radius: 14px;
+  padding: 0.7em 0;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+  width: 100%;
+}
+.clear-btn {
+  background: #1e263b;
+  color: #bddaf0;
+  border: none;
+  border-radius: 14px;
+  padding: 0.7em 0;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
+
+.opportunities {
+  flex: 1;
+  background: #161a22;
+  border-radius: 16px;
+  padding: 1.8rem 1.6rem 1.5rem 1.6rem;
+  box-shadow: 0 4px 24px rgba(18,31,63,0.14);
+  display: flex;
+  flex-direction: column;
+}
+.opportunities h2 {
+  font-size: 1.32rem;
+  color: #6beeff;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+.opportunities .subtitle {
+  color: #b6eaff;
+  font-size: 1em;
+  margin-bottom: 1.2em;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+.card {
+  background: #141a25;
+  border-radius: 14px;
+  padding: 1.2em 1.2em 1em 1.2em;
+  box-shadow: 0 1px 12px rgba(18,40,65,0.13);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.card-avatar {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background: linear-gradient(135deg,#22d6ae 60%,#f4e292 100%);
+  display: inline-block;
+  margin-right: 0.4em;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 1.08em;
+  color: #c2f7fa;
+}
+.card-author {
+  color: #94cedb;
+  font-size: 0.98em;
+}
+.badge {
+  margin-left: auto;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 0.22em 1em;
+  font-size: 0.9em;
+}
+.badge.team {
+  background: #212c37;
+  color: #2deedb;
+}
+.badge.individual {
+  background: #412319;
+  color: #f2c7b6;
+}
+.card-desc {
+  color: #d7f6f9;
+  font-size: 0.97em;
+}
+.card-meta {
+  color: #8cd0f8;
+  font-size: 0.97em;
+  margin-bottom: 0.1em;
+}
+.card-tags {
+  display: flex;
+  gap: 0.4em;
+  flex-wrap: wrap;
+}
+.card-tags span {
+  background: #182e3e;
+  color: #78f4e5;
+  border-radius: 10px;
+  padding: 0.22em 0.7em;
+  font-size: 0.97em;
+  font-weight: 600;
+}
+@media (max-width: 900px) {
+  .main-content { flex-direction: column; }
+  .card-container { grid-template-columns: 1fr; }
+  .opportunities { margin-top: 2em; }
+  .filters { max-width: 100%; margin-bottom: 2em; }
+}
