@@ -1,1 +1,144 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HackFinder Opportunities Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <nav class="navbar">
+    <span class="logo">HackFinder</span>
+    <span class="nav-sub">Find Your Perfect Team</span>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#" class="active">Browse</a>
+      <a href="#">Dashboard</a>
+      <button class="create-btn">+ Create Post</button>
+      <span class="profile"><span class="avatar"></span> Deepanshu Sagore</span>
+    </div>
+  </nav>
+  <main class="main-content">
+    <aside class="filters">
+      <h2>Filters</h2>
+      <label>
+        Post Type
+        <select>
+          <option>All Posts</option>
+          <option>Team</option>
+          <option>Individual</option>
+        </select>
+      </label>
+      <label>
+        Skills
+        <select>
+          <option>All Skills</option>
+          <option>React</option>
+          <option>Python</option>
+          <option>Web3</option>
+        </select>
+      </label>
+      <label>
+        Roles
+        <select>
+          <option>All Roles</option>
+          <option>Frontend Developer</option>
+          <option>ML Engineer</option>
+          <option>Designer</option>
+        </select>
+      </label>
+      <button class="apply-btn">Apply Filters</button>
+      <button class="clear-btn">Clear Filters</button>
+    </aside>
+    <section class="opportunities">
+      <h2>Available Opportunities</h2>
+      <p class="subtitle">Connect with teams and individuals looking for their perfect match</p>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-header">
+            <span class="card-avatar"></span>
+            <div>
+              <span class="card-title">UPI Insights Platform - Need Frontend Dev</span>
+              <span class="card-author">by Deepanshu Sagore</span>
+            </div>
+            <span class="badge team">TEAM</span>
+          </div>
+          <div class="card-desc">
+            We are building a UPI analytics dashboard for fintech founders...
+          </div>
+          <div class="card-meta">4/5 members &middot; Frontend Developer</div>
+          <div class="card-tags">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Web3</span>
+            <span>D3.js</span>
+            <span>Tailwind</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-avatar"></span>
+            <div>
+              <span class="card-title">Product Designer Seeking Hackathon Team</span>
+              <span class="card-author">by Rohit Verma</span>
+            </div>
+            <span class="badge individual">INDIVIDUAL</span>
+          </div>
+          <div class="card-desc">
+            Hi! I'm a senior designer with 5+ years of experience in product design...
+          </div>
+          <div class="card-meta">UI/UX Designer, Frontend Developer</div>
+          <div class="card-tags">
+            <span>Figma</span>
+            <span>React</span>
+            <span>Tailwind</span>
+            <span>Framer</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-avatar"></span>
+            <div>
+              <span class="card-title">AI Diagnostics Team - Hiring ML & Frontend</span>
+              <span class="card-author">by Karan Gupta</span>
+            </div>
+            <span class="badge team">TEAM</span>
+          </div>
+          <div class="card-desc">
+            We are building a clinical decision support tool for radiologists using computer vision and NLP...
+          </div>
+          <div class="card-meta">3/5 members &middot; ML Engineer, Frontend Developer</div>
+          <div class="card-tags">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>AWS</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-avatar"></span>
+            <div>
+              <span class="card-title">Blockchain Developer Seeking Web3 Project</span>
+              <span class="card-author">by Priya Nair</span>
+            </div>
+            <span class="badge individual">INDIVIDUAL</span>
+          </div>
+          <div class="card-desc">
+            Solidity expert with 3 years in DeFi. Built multiple DEX protocols...
+          </div>
+          <div class="card-meta">Blockchain Developer, Smart Contract Engineer</div>
+          <div class="card-tags">
+            <span>Solidity</span>
+            <span>Web3</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Hardhat</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
