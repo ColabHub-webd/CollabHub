@@ -1,1 +1,35 @@
+<div class="modal-overlay">
+  <div class="modal">
+    <div class="modal-header">
+      <span>Create New Post</span>
+      <span class="modal-close">&times;</span>
+    </div>
+    <form class="modal-form">
+      <label>
+        Post Type
+        <select>
+          <option>Select post type</option>
+          <option>Team</option>
+          <option>Individual</option>
+        </select>
+      </label>
+      <label>
+        Title
+        <input type="text" placeholder="Title">
+      </label>
+      <label>
+        Description
+        <textarea rows="4" placeholder="Description"></textarea>
+      </label>
+      <label>
+        Tech Stack <span class="hint">(comma-separated)</span>
+        <input type="text" value="React, Node.js, Python">
+      </label>
+      <div class="modal-actions">
+        <button type="button" class="cancel">Cancel</button>
+        <button type="submit" class="submit">Create Post</button>
+      </div>
+    </form>
+  </div>
+</div>
 
