@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HackFinder – Timeline Overview</title>
+  <link rel="stylesheet" href="timeline.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <span class="logo">HackFinder</span>
+    <span class="subtitle">Find Your Perfect Team</span>
+    <div class="nav-menu">
+      <a href="#">Home</a>
+      <a href="#">Browse</a>
+      <a href="#" class="active">Dashboard</a>
+      <button class="create-btn">+ Create Post</button>
+      <span class="profile"><span class="avatar"></span> Deepanshu Sagore</span>
+    </div>
+  </nav>
+
+  <main class="timeline-layout">
+    <aside class="quick-stats">
+      <h2>Quick stats</h2>
+      <div class="stat-list">
+        <div class="stat-box">
+          <div>Active Posts</div>
+          <div class="stat-number">1</div>
+          <span class="stat-label">Live listing</span>
+        </div>
+        <div class="stat-box">
+          <div>Pending responses</div>
+          <div class="stat-number">1</div>
+          <span class="stat-label">Needs your review</span>
+        </div>
+        <div class="stat-box">
+          <div>My pending interests</div>
+          <div class="stat-number">0</div>
+          <span class="stat-label">Awaiting replies</span>
+        </div>
+        <div class="stat-box">
+          <div>New suggestions</div>
+          <div class="stat-number">3</div>
+          <span class="stat-label">Curated for you</span>
+        </div>
+      </div>
+      <div class="last-update">Last update: Jan 19, 2024</div>
+      <div class="timeline-filter">
+        <span>Timeline filters</span>
+        <button class="filter selected">All activity <span>3</span></button>
+        <button class="filter">My posts <span>1</span></button>
+        <button class="filter">Incoming <span>1</span></button>
+        <button class="filter">My interests <span>1</span></button>
+      </div>
+    </aside>
+    <section class="timeline-main">
+      <h1 class="timeline-title">Timeline overview</h1>
+      <p class="timeline-desc">Scan recent posts and interest activity in chronological order</p>
+      <div class="timeline-section">
+        <h3>Earlier</h3>
+        <!-- Card 1 -->
+        <div class="timeline-card">
+          <div class="badge-row">
+            <span class="pill">MY INTEREST</span>
+            <span class="date">Jan 19</span>
+          </div>
+          <div class="tc-title">Product Designer Seeking Hackathon Team</div>
+          <div class="meta">Owner: Rohit Verma</div>
+          <div class="tc-desc">
+            Hi Rohit! Your design-first mindset fits perfectly with our health tech hackathon squad. Let's sync to see if our timelines align.
+          </div>
+          <div class="tag-row">
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Tailwind</span>
+            <span class="skill-tag">Framer</span>
+            <span class="status accepted">Accepted</span>
+            <button class="view-post">View Post</button>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="timeline-card">
+          <div class="badge-row">
+            <span class="pill alt">INCOMING INTEREST</span>
+            <span class="date">Jan 16</span>
+          </div>
+          <div class="tc-title">Rohit Verma</div>
+          <div class="meta">Interested in UPI Insights Platform - Need Frontend Dev</div>
+          <div class="tc-desc">
+            Hi Deepanshu! I'd love to join the UPI Insights build as the frontend owner. I've led two React fintech dashboards and can help polish the product experience.
+          </div>
+          <div class="meta">Roles: Frontend Developer</div>
+          <div class="tag-row">
+            <span class="status pending">Pending</span>
+            <button class="accept">Accept</button>
+            <button class="decline">Decline</button>
+            <button class="view-post">View Post</button>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="timeline-card">
+          <div class="badge-row">
+            <span class="pill">MY POST</span>
+            <span class="date">Jan 15</span>
+          </div>
+          <div class="tc-title">UPI Insights Platform - Need Frontend Dev</div>
+          <div class="tc-desc">
+            (Your opportunity post content...)
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
